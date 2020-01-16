@@ -1,0 +1,10 @@
+python -m wget https://github.com/Neubias-WG5/neubiaswg5-utilities/archive/v0.8.8.zip
+python -m zipfile -e neubiaswg5-utilities-0.8.8.zip .
+mv neubiaswg5-utilities-0.8.8 neubiaswg5-utilities
+cd neubiaswg5-utilities
+pip install .
+
+# install utilities binaries
+chmod +x bin/*
+export PATH=$PATH:$(pwd)/bin/
+cd ..
