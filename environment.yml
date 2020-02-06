@@ -1,4 +1,7 @@
 name: neubias_biaflows
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - _libgcc_mutex=0.1
   - alembic=1.1.0
