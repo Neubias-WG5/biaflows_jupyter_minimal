@@ -1,11 +1,11 @@
 # Install Cytomine python client
-pip install https://github.com/Cytomine-ULiege/Cytomine-python-client/archive/master.zip
+pip install https://github.com/cytomine-uliege/Cytomine-python-client/archive/v2.7.3.zip
 
 # Install neubias utilities
-python -m wget https://github.com/Neubias-WG5/neubiaswg5-utilities/archive/v0.8.8.zip
-python -m zipfile -e neubiaswg5-utilities-0.8.8.zip .
-mv neubiaswg5-utilities-0.8.8 neubiaswg5-utilities
-cd neubiaswg5-utilities
+python -m wget https://github.com/Neubias-WG5/biaflows-utilities/archive/v0.9.1.zip
+python -m zipfile -e biaflows-utilities-0.9.1.zip .
+mv biaflows-utilities-0.9.1 biaflows-utilities
+cd biaflows-utilities
 pip install .
 
 # install utilities binaries
